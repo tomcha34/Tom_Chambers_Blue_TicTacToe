@@ -13,6 +13,8 @@
 		F65D699C270F4A5A00E50D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65D699A270F4A5A00E50D6A /* Main.storyboard */; };
 		F65D699E270F4A5D00E50D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F65D699D270F4A5D00E50D6A /* Assets.xcassets */; };
 		F65D69A1270F4A5D00E50D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65D699F270F4A5D00E50D6A /* LaunchScreen.storyboard */; };
+		F65D69A9270F50BC00E50D6A /* Tom_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65D69A8270F50BC00E50D6A /* Tom_TableViewController.swift */; };
+		F65D69AB270F53A600E50D6A /* Tom_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65D69AA270F53A600E50D6A /* Tom_TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F65D699D270F4A5D00E50D6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F65D69A0270F4A5D00E50D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F65D69A2270F4A5D00E50D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F65D69A8270F50BC00E50D6A /* Tom_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tom_TableViewController.swift; sourceTree = "<group>"; };
+		F65D69AA270F53A600E50D6A /* Tom_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tom_TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				F65D6996270F4A5A00E50D6A /* SceneDelegate.swift */,
 				F65D6998270F4A5A00E50D6A /* ViewController.swift */,
 				F65D699A270F4A5A00E50D6A /* Main.storyboard */,
+				F65D69AA270F53A600E50D6A /* Tom_TableViewCell.swift */,
 				F65D699D270F4A5D00E50D6A /* Assets.xcassets */,
 				F65D699F270F4A5D00E50D6A /* LaunchScreen.storyboard */,
 				F65D69A2270F4A5D00E50D6A /* Info.plist */,
+				F65D69A8270F50BC00E50D6A /* Tom_TableViewController.swift */,
 			);
 			path = Tom_Chambers_Blue_TicTacToe;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F65D6999270F4A5A00E50D6A /* ViewController.swift in Sources */,
+				F65D69AB270F53A600E50D6A /* Tom_TableViewCell.swift in Sources */,
 				F65D6995270F4A5A00E50D6A /* AppDelegate.swift in Sources */,
+				F65D69A9270F50BC00E50D6A /* Tom_TableViewController.swift in Sources */,
 				F65D6997270F4A5A00E50D6A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
